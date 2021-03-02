@@ -1,23 +1,29 @@
 body {
-    background:#BDBDBD;
+    background:black;
     margin:0;
+    font-family: Arial, Helvetica, sans-serif;
 }
-div {
-    box-sizing: border-box;
-}
-header {
-    background: white;
-    padding:10px;
-}
-header h1 {
-    margin: 0;
-}
+
 div.post {
-    background: white;
-    margin-top: 10px;
+    background: white;    
+    margin: auto;
+    width: 60%;  
+    
+}
+.imagenes{
+    font-size: 40px;
 }
 div.post img{
     width: 100%;
+}
+div.post-header {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 10px;
+    padding-right: 10px;   
+}
+div.post-footer {
+    padding: 10px;
 }
 div.post .post-header div:first-child{
     display: inline-block;
@@ -28,14 +34,20 @@ div.post .post-header div:last-child{
     width: 20%;
     padding: 10px;
     text-align: right;
-    color:gray;
+    
 }    
-div.post h2, div.post p{
-    padding: 10px;
-    margin:0;
+#izq{
+float: left;
+font-size: 40px;
 }
-div.container {
-    width: 600px;
-    margin:auto;
+#centro{
+font-size: 20px;    
+padding-left: 4px;
 }
-
+#der{
+float: right;
+font-size: 40px;
+}
+#figura{
+float: right;
+}
